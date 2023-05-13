@@ -1,0 +1,45 @@
+.logo{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.img_logo{
+    max-height: 150px;
+    max-width: 220px;
+    margin: auto;
+}
+.name_logo{
+    margin: auto;
+}
+.burg_class{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carousel {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.menu_centr{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: auto;
+    height: 250px;
+}
+.card:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.img_burger{
+    padding-top: 25px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
