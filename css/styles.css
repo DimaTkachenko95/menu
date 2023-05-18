@@ -46,7 +46,7 @@
     margin: auto;
     padding-bottom: 20px;
 }
-.menu_centr{
+.menu_burger{
     display: flex;
     flex-wrap: wrap;
 }
@@ -58,11 +58,25 @@
     max-width: 40%;
     margin: auto;
     display: flex;
+    border-radius: 40px;
 }
 .img_box{
     display: flex;
+    border-radius: 40px;
 }
 .title{
    text-align: center;
     margin-bottom: 10px;
+}
+.btn-primary.btn{
+    background: black;
+    border-color: black;
+}
+.btn-primary.btn:hover{
+    background: white;
+    color: black;
+    border-color: black;
+}
+.section_burger{
+    text-align: center;
 }
